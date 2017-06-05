@@ -17,6 +17,7 @@
 		994FD9BA1EE5538700A4AE10 /* MCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994FD9B91EE5538700A4AE10 /* MCameraTests.m */; };
 		994FD9C51EE5538700A4AE10 /* MCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994FD9C41EE5538700A4AE10 /* MCameraUITests.m */; };
 		994FD9D31EE553AD00A4AE10 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 994FD9D21EE553AD00A4AE10 /* 1.png */; };
+		994FD9D61EE557ED00A4AE10 /* ZQDrawableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 994FD9D51EE557ED00A4AE10 /* ZQDrawableImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		994FD9C41EE5538700A4AE10 /* MCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCameraUITests.m; sourceTree = "<group>"; };
 		994FD9C61EE5538700A4AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		994FD9D21EE553AD00A4AE10 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		994FD9D41EE557ED00A4AE10 /* ZQDrawableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQDrawableImageView.h; sourceTree = "<group>"; };
+		994FD9D51EE557ED00A4AE10 /* ZQDrawableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQDrawableImageView.m; sourceTree = "<group>"; };
 		E8E34D622B1A292D31352276 /* libPods-MCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +125,8 @@
 				994FD9A31EE5538600A4AE10 /* AppDelegate.m */,
 				994FD9A51EE5538600A4AE10 /* ViewController.h */,
 				994FD9A61EE5538600A4AE10 /* ViewController.m */,
+				994FD9D41EE557ED00A4AE10 /* ZQDrawableImageView.h */,
+				994FD9D51EE557ED00A4AE10 /* ZQDrawableImageView.m */,
 				994FD9A81EE5538600A4AE10 /* Main.storyboard */,
 				994FD9AB1EE5538600A4AE10 /* Assets.xcassets */,
 				994FD9AD1EE5538600A4AE10 /* LaunchScreen.storyboard */,
@@ -355,6 +360,7 @@
 				994FD9A71EE5538600A4AE10 /* ViewController.m in Sources */,
 				994FD9A41EE5538600A4AE10 /* AppDelegate.m in Sources */,
 				994FD9A11EE5538600A4AE10 /* main.m in Sources */,
+				994FD9D61EE557ED00A4AE10 /* ZQDrawableImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +596,7 @@
 				994FD9CB1EE5538700A4AE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		994FD9CC1EE5538700A4AE10 /* Build configuration list for PBXNativeTarget "MCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +605,7 @@
 				994FD9CE1EE5538700A4AE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		994FD9CF1EE5538700A4AE10 /* Build configuration list for PBXNativeTarget "MCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +614,7 @@
 				994FD9D11EE5538700A4AE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
